@@ -1,7 +1,6 @@
 package Interfaz;
 
-import java.awt.BorderLayout;
-import java.awt.GridLayout;
+import java.awt.*;
 
 import javax.swing.*;
 

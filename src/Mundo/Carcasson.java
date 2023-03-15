@@ -52,7 +52,7 @@ public class Carcasson {
 		deck = new Ficha[deckSize];
 		
 		for( int i = 0; i < pool.length; i++ ) {
-			pool[i] = new Ficha(pProperties.getProperty("ficha"+i).split(","));
+			pool[i] = new Ficha(pProperties.getProperty("ficha"+i).split(","), i);
 		}
     }
 	

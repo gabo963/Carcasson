@@ -8,13 +8,15 @@ public class Ficha {
 	
 	private String[] lados;
 	private int rotacion;
+	private int nombre;
 	
 	// Constructor
 	
-	public Ficha( String[] pLados )
+	public Ficha( String[] pLados, int pNombre )
 	{
 		lados = pLados;
 		rotacion = 0;
+		nombre = pNombre;
 	}
 	
 	// Metodos
